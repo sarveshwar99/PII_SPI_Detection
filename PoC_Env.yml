@@ -1,0 +1,13 @@
+# BASH: conda env create
+name: PoC_Env
+channels:
+- !!python/unicode
+  'defaults'
+dependencies:
+- python=3.6
+- pip==9.0.1
+- numpy==1.13.3
+- pandas==0.20.3
+- pip:
+  - tensorflow==1.9.0
+  - keras==2.2.0
